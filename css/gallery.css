@@ -1,0 +1,55 @@
+#gallery > ul{
+
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    list-style: none;
+
+}
+
+h1{
+
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+#gallery > figure{
+    
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+}
+
+#gallery > figure > img{
+
+    max-width: 800px;
+    max-height: 450px;
+    cursor: pointer;
+
+}
+
+#gallery > figure > figcaption{
+
+    font-size: 25px;
+
+}
+
+section > ul > li > img{
+
+    
+    filter: grayscale(100%);
+  
+
+}
+
+section > ul > li > img:active,
+section > ul > li > img::selection,
+section > ul > li > img:hover
+{
+
+    filter: none;
+
+}
